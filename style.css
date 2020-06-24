@@ -1,0 +1,115 @@
+/* ALTERAR PARA TODOS OS ELEMENTOS */
+html * {
+    /* RESETAR A MARGEM */
+    margin: 0px;
+    /* LARGURA MÁXIMA DOS ELEMENTOS */
+    max-width: 100%;
+}
+#bola{
+    color: rgb(58, 4, 4);
+    background-color: lightpink;
+    padding: 10px;
+    margin: 5px;
+    Border: 10px solid rgb(255, 0, 43);
+    text-align: center;
+}
+.boneca{
+color: rgb(212, 97, 14);
+border: 15px rgba(236, 5, 5, 0.904);
+background-color: rgb(228, 196, 166);
+padding: 20px;
+margin: 5px;
+text-align: center;
+}
+.carrinho{
+    color: rosybrown;
+    border: sandybrown;
+    background-color: sienna;
+    padding: 20px;
+    margin: 5px;
+}
+.casinha{
+    color: red;
+    border: 10px solid orange;
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(233, 215, 197);
+    text-align: justify;
+}
+.box   {
+    color: red;
+    border: 10px solid orangered;
+    margin: 10px;
+    padding: 5px;
+    background-color: papayawhip;
+    text-align: justify;
+}
+#logotipo{
+font-family: sans-serif;
+padding: 20px;
+margin: 10px; 
+max-width: 700px;
+height: 500px;
+}
+#patins a{
+background-color: brown;
+color: burlywood;
+border-style: 10px;
+font-family: sans-serif;
+transition: 0.4s;
+padding: 20px;
+margin: 20px;
+box-decoration-break: inherit;
+text-align: center;
+}
+#patins a:hover {
+background-color: burlywood;
+color: brown;
+}
+.principal {
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 3 COLUNAS */
+    grid-template-columns: repeat(3, 1fr);
+
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 20px;
+    border: 30px;
+}
+#promocional {
+    color: sienna;
+    border: tan;
+    padding: 30px;
+    margin: 15px;
+    height: 100px;
+}
+footer {
+    height: 50px;
+    color: brown;
+    background-color: tan;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+    border: 10px; 
+}
+#foto.jpeg{
+    max-width: 100%;
+    border: 20px solid red;
+    /* background-image */
+}
+.peão{
+    color: red;
+    border: 10px solid rgb(255, 0, 0);
+    margin: 20px;
+    padding: 5px;
+    background-color: rgb(233, 215, 197);
+    text-align: justify
+}
+.chocalho{
+    color: aquamarine;
+    border: burlywood;
+    margin: 20px;
+    padding: 5px;
+    background-color: lightpink;
+}
